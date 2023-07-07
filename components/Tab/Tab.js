@@ -11,7 +11,6 @@ const Tab = props => {
   const tabWidth = {
     width: horizontalScale(paddingHorizontal * 2 + width),
   };
-  console.log(width);
   return (
     <Pressable
       disabled={props.isDisabled}
@@ -27,7 +26,7 @@ const Tab = props => {
   );
 };
 Tab.default = {
-  title: '',
+  title: 'abc',
   isInactive: false,
   callback: () => {},
 };

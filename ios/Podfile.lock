@@ -490,6 +490,8 @@ PODS:
     - React-jsi (= 0.72.0)
     - React-logger (= 0.72.0)
     - React-perflogger (= 0.72.0)
+  - RNCAsyncStorage (1.19.0):
+    - React-Core
   - RNCMaskedView (0.2.9):
     - React-Core
   - RNDeviceInfo (10.7.0):
@@ -570,6 +572,7 @@ DEPENDENCIES:
   - React-runtimescheduler (from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`)
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNCMaskedView (from `../node_modules/@react-native-masked-view/masked-view`)"
   - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
@@ -674,6 +677,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/utils"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-async-storage/async-storage"
   RNCMaskedView:
     :path: "../node_modules/@react-native-masked-view/masked-view"
   RNDeviceInfo:
@@ -739,6 +744,7 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 24614bcd31643eacb06c78c0b9101b453d6aac47
   React-utils: c12d2e75c8bbc727939ddc4319ed95493395ed5a
   ReactCommon: 517b45ed311ba9146aa8b55a8ef6617425f7448e
+  RNCAsyncStorage: 4b98ac3c64efa4e35c1197cb0c5ca5e9f5d4c666
   RNCMaskedView: 949696f25ec596bfc697fc88e6f95cf0c79669b6
   RNDeviceInfo: 25d818c85db769cc0e7083d39efaa01a6f450df3
   RNGestureHandler: dec4645026e7401a0899f2846d864403478ff6a5
